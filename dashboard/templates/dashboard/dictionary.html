@@ -1,0 +1,88 @@
+{% extends 'dashboard/base.html' %} 
+{% load static %} 
+{% block content %}
+<section class='text-center container'>
+    <h2>Student Dictionary</h2>
+    <p>Enter any word to get the phonetics, definition and an example for the word</p>
+    <form action="" method="post">
+    {% csrf_token %}
+    {{form}}
+        <input class="btn btn-danger" type="submit" value="Submit">
+    </form><br>
+    <div class="content-section p-0 mt-5">
+        {% if input %}
+            {% if entry == "working" %}
+                {% if data == "no data"%}
+                    <h2>Sorry, The word could not be found.</h2>
+                {% else %}
+        
+
+                    {% if phonetics|length > 1 %}
+
+                        <h2>{{input}}</h2>
+                        <div class="custom-header">
+            
+                        <h6>{{phonetics.0}}</h6>
+                        <audio id="player" src="{{audio}}"></audio>
+                        <div>
+                        <a onclick= "document.getElementById('player').play()">  <i class='fa fa-volume-up fa-2x'></i> </a> 
+                        </div> 
+                        </div>
+
+                        {% for def in defi  %}
+        
+        
+
+                            <hr class="p-0 m-0">
+
+                            <p class="float-left">
+                            <h4>Definition:{{def.0}}</h4>
+                            <h4>Example: {{def.1}}</h4>
+            
+                            </p>
+                            Synonyms:
+                            {% for synonym in synonyms.num  %}
+                                {{synonym}}
+        
+                            {% endfor %}
+                            <hr>
+
+                            </div>
+                        {% endfor %}
+        
+                    {% else %}
+             
+       
+                        <div class="custom-header">
+                        <h2>{{input}}</h2>
+                        <h6>{{phonetics}}</h6>
+                        <audio id="player" src="{{audio}}"></audio>
+                        <div>
+                            <a onclick= "document.getElementById('player').play()">  <i class='fa fa-volume-up fa-2x'></i></a> 
+                        </div> 
+                        </div>
+
+                        <hr class="p-0 m-0">
+
+                        <p class="float-left">
+                        <h4>Definition: {{definition}}</h4>
+                        <h4>Example: {{example}}</h4>
+                        </p>
+                        Synonyms:
+                        {% for synonym in synonyms  %}
+                            {{synonym}}
+        
+                        {% endfor %}
+                            <hr>
+                    {% endif %}
+                        </div>
+                {% endif %}
+            {% elif entry == "some error" %}
+       
+                <h2>Sorry, API request limit exceeded</h2>
+            {% endif %}
+        {% else%}
+            <h2>Type in a word to look</h2>
+        {% endif %}
+        </section>
+    {% endblock content %}
