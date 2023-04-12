@@ -6,12 +6,12 @@ For the Study-Portal we have a dashboard and studentStudyPortal folders
     templates
     templatetags
  # static
-  css
-  images
- #studentStudyPortal
+    css
+    images
+ # studentStudyPortal
  
- #db.sqlite3
- #manage.py
+ # db.sqlite3
+ # manage.py
  
  
  
