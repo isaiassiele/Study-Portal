@@ -4,35 +4,39 @@ Study portal is a simple open-source website platform built on the Django Web Fr
 
 #Contents and Features include
 
-•	User can manage assignments, keep notes and to-dos. 
+•	User can manage assignments, keep notes and to-dos 
 •	API for YouTube, Wikipedia, Google books and dictionary  
 •	Custom admin 
 •	Responsive, mobile-friendly design 
 •	And more…
 
-Technologies
+#Technologies
+
 •	Django framework
 •	Python
 •	Html
 •	CSS
 •	Bootstrap 4 and 5
 
-Getting Started
-Prerequisites
+#Getting Started
+#Prerequisites
+
 •	python
 •	Pip install django
-Installation
+
+#Installation
+
 •	clone Repository & Install Packages
 o	git clone https://github.com/isaiassiele/Study-Portal.git
 •	create a virtual environment inside  and activate virtual environment,
 o	For Mac/ Linux
-	python3 -m venv myenv
-	source env/bin/activate
+o	python3 -m venv myenv
+o	source env/bin/activate
 
 
 o	for windows
-	virtualenv venv
-	.\venv\Scripts\activate
+o	virtualenv venv
+o	.\venv\Scripts\activate
 •	install project dependencies from requirements.txt
 o	pip install –r requirements.txt
 •	migrate and start server
@@ -43,7 +47,7 @@ o	python manage.py runserver
 Demo
 •	http://isaiasportal.pythonanywhere.com
 
-Detailed explanation:
+# Detailed explanation:
 The website has six main pages and those are:
 •	The to-do page: which helps to store data in database and can be retrieved from the to-do page and when the task is done the user can mark it as completed or delete it. The user can update the information of the task at any time.
 •	The homework page: helps in organizing homework and assignments, by creating new assignments updating deleting and, marking as completed too.
