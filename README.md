@@ -1,7 +1,7 @@
-Study portal
+#Study portal
 Study portal is a simple open-source website platform built on the Django Web Framework, designed to provide services for student to track their assignments, to-dos, save notes and refer to contents from other platforms all in one place when studying.  
 
-Contents and Features include
+#Contents and Features include
 •	User can manage assignments, keep notes and to-dos.
 •	API for YouTube, Wikipedia, Google books and dictionary 
 •	Custom admin
