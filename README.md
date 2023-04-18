@@ -52,7 +52,7 @@ The website has six main pages and those are:
 •	Dictionary page: this page has a search box where a student can lookup words. The word will be search by the help of an API from https://dictionaryapi.dev.
 Some secondary pages included are:
 •	Homepage: A beautiful simple user interface design that shows all functionalities where the user can browse to the other pages through.
-•	Profile page : this page provide all the list of the user’s/ student’s homework and to-do status in tabular form.
+•	Profile page: this page provide all the list of the user’s/ student’s homework and to-do status in tabular form.
 The website includes seven primary pages and those are:
  The to-do page: This aids in database data storage and retrieval, and after a job is finished, the user can mark it as completed or delete it. Anytime the user wants, they may change the task's information and update as needed.
 The homework page assists in managing homework and assignments by adding new tasks, modifying existing ones, eliminating unfinished ones, and marking them as finished. The notes page allows the learner to keep notes while they are learning.
@@ -66,11 +66,13 @@ Homepage: A lovely, straightforward user experience that displays all capabiliti
 The user's/student's homework and to-do list is listed in tabular form on the profile page.
 
 Django Structure/ Code Structure
+
 studentStudyPortal Directory
 
 1. studentStudyPortal /init.py 
 
 An empty file that tells Python that this directory should be considered a Python package.
+
 2. studentStudyPortal /settings.py
 
  Settings/configuration for this Django project.we declare all Installed app ( 'social_django', 'dashboard','crispy_forms', 'crispy_bootstrap5',).
@@ -96,16 +98,21 @@ pythonanywhere.com works for both.
 
 
 DASHBOARD folder consists of 
+
 1. _init_.py
 This file has the same functionality just as in the _init_.py file in the Django project structure. It remains empty and is present just to indicate that the specific app directory is a package.
+
 2. dashbord/admin.py
 As the name suggests, this file is used for registering the models into the Django administration.A custom admin class is created by inheriting django AdminSite class.The puupose of this custom admin is to limit staff using into only user management and not IT-admin related permissions. 
+
 3. dashbord/apps.py
 This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases and hence we won’t be doing anything here in the beginning.
+
 4. dashbord/models.py
 This file contains the models of our web applications (usually as classes).
 Models are basically the blueprints of the database we are using and hence contain the information regarding attributes and the fields etc of the database.
 In this we have created three classes that needed data storage and those are to-do, notes and homework pages. All the classes inherit django model class and have foreign key of user with a cascade attribute in order to delete notes, to-dos and homework associated with the user. The built __str__() function is overridden so that the admin can see names and not object reference. 
+
 5. dashbord/views.py
 This file is a crucial one, it contains all the Views(usually as classes). Views.py can be considered as a file that interacts with the client. Views are a user interface for what we see when we render a Django Web application.
 The view contains all the function that are called from urls. For homework, to-do and notes a “@required” or LoginRequiredMixin mixins are used to avoid accessing those site with put logging in.
@@ -122,10 +129,12 @@ DateInput class was created to make sure the due date for assignments and homewo
 7. dashbord/urls.py
 Just like the project urls.py file, this file handles all the URLs of our web application. This file is just to link the Views in the app with the host web URL. The settings urls.py has the endpoints corresponding to the Views.
 In this project, the urls for all pages are listed including the names, to easily call them from templates.As for deleting and updating urls we have included id in int format which will proved us with the primary key of whatever needed to be accessed for updating, retrieval or deletion. 
+
 8. Template tags directory:
 This sub directory consists of :
 •	dashbord/templatetags/__init__() module indicate that the specific app directory is a package.
 •	dashbord/templatetags/__custom_tags module which stores a function to register a custom template that checks if a user belongs to a certain group.
+
 9. Templates directory:
 This subdirectory contains all the html templates we use to render the views from views module. Special mention is for base.html which is like a blanket that cover the other templates to be included. This is achieve by used djangos {% extends %} and {% block content}} tags there are also other tags we used such as {% if %}{% endif %} {% for %}{% endfor %} and third party tags such as crispy_form_tags.
 
