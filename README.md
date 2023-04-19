@@ -50,11 +50,17 @@ Demo
 # Detailed explanation:
 The website has six main pages and those are:
 •The to-do page: which helps to store data in database and can be retrieved from the to-do page and when the task is done the user can mark it as completed or delete it. The user can update the information of the task at any time.
+
 •The homework page: helps in organizing homework and assignments, by creating new assignments updating deleting and, marking as completed too.
+
 •The notes pages: this page provides the student to keep note when studying.
+
 •Wiki search page: this helps the student to look up a quick summary of a topic without having to visit the Wikipedia page or going through everything, and of course if the student wants to dive in deeper they can click on the summary and get directed to the specific page on the actual website.
+
 •YouTube page: has almost the same functionality as the Wikipedia page but uses YouTube API, this too helps the student to look up videos without the hustle of opening new tabs and having to lose focus, which is the main reason for this website, to provide a service in one place so a student hasn’t have to get distracted by trying to actually study and not have to keep up with looking up in different platforms.
+
 •The books page: The Books API is a way to search and access that content, as well as to create and view personalization around that content. Using this API when the student search for books the page will provide with the most relevant books based on the search and list it including basic information, thumbnail and link to the Google books preview site.
+
 •Dictionary page: this page has a search box where a student can lookup words. The word will be search by the help of an API from https://dictionaryapi.dev.
 
 Some secondary pages included are:
