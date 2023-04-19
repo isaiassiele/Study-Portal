@@ -84,7 +84,7 @@ Additional pages comprised include:
 
 •The user's/student's homework and to-do list is listed in tabular form on the profile page.
 
-Django Structure/ Code Structure
+# Django Structure/ Code Structure
 
 ![Screenshot 2023-04-19 095148](https://user-images.githubusercontent.com/116893742/233022973-1fbdeb3e-0f02-4220-84c0-9f4e519de09a.jpg)
 
