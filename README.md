@@ -119,7 +119,7 @@ pythonanywhere.com works for both.
  An entry-point for WSGI-compatible web servers to serve your project, which we didn’t need to add since pythonanywhere.com works for both.
 
 
-# DASHBOARD folder consists of 
+# dashboard directory folder consists of 
 
 1. _init_.py
 
