@@ -49,29 +49,34 @@ Demo
 
 # Detailed explanation:
 The website has six main pages and those are:
-•	The to-do page: which helps to store data in database and can be retrieved from the to-do page and when the task is done the user can mark it as completed or delete it. The user can update the information of the task at any time.
-•	The homework page: helps in organizing homework and assignments, by creating new assignments updating deleting and, marking as completed too.
-•	The notes pages: this page provides the student to keep note when studying.
-•	Wiki search page: this helps the student to look up a quick summary of a topic without having to visit the Wikipedia page or going through everything, and of course if the student wants to dive in deeper they can click on the summary and get directed to the specific page on the actual website.
-•	YouTube page: has almost the same functionality as the Wikipedia page but uses YouTube API, this too helps the student to look up videos without the hustle of opening new tabs and having to lose focus, which is the main reason for this website, to provide a service in one place so a student hasn’t have to get distracted by trying to actually study and not have to keep up with looking up in different platforms.
-•	The books page: The Books API is a way to search and access that content, as well as to create and view personalization around that content. Using this API when the student search for books the page will provide with the most relevant books based on the search and list it including basic information, thumbnail and link to the Google books preview site.
-•	Dictionary page: this page has a search box where a student can lookup words. The word will be search by the help of an API from https://dictionaryapi.dev.
+•The to-do page: which helps to store data in database and can be retrieved from the to-do page and when the task is done the user can mark it as completed or delete it. The user can update the information of the task at any time.
+•The homework page: helps in organizing homework and assignments, by creating new assignments updating deleting and, marking as completed too.
+•The notes pages: this page provides the student to keep note when studying.
+•Wiki search page: this helps the student to look up a quick summary of a topic without having to visit the Wikipedia page or going through everything, and of course if the student wants to dive in deeper they can click on the summary and get directed to the specific page on the actual website.
+•YouTube page: has almost the same functionality as the Wikipedia page but uses YouTube API, this too helps the student to look up videos without the hustle of opening new tabs and having to lose focus, which is the main reason for this website, to provide a service in one place so a student hasn’t have to get distracted by trying to actually study and not have to keep up with looking up in different platforms.
+•The books page: The Books API is a way to search and access that content, as well as to create and view personalization around that content. Using this API when the student search for books the page will provide with the most relevant books based on the search and list it including basic information, thumbnail and link to the Google books preview site.
+•Dictionary page: this page has a search box where a student can lookup words. The word will be search by the help of an API from https://dictionaryapi.dev.
+
 Some secondary pages included are:
-•	Homepage: A beautiful simple user interface design that shows all functionalities where the user can browse to the other pages through.
-•	Profile page: this page provide all the list of the user’s/ student’s homework and to-do status in tabular form.
+•Homepage: A beautiful simple user interface design that shows all functionalities where the user can browse to the other pages through.
+•Profile page: this page provide all the list of the user’s/ student’s homework and to-do status in tabular form.
 The website includes seven primary pages and those are:
- The to-do page: This aids in database data storage and retrieval, and after a job is finished, the user can mark it as completed or delete it. Anytime the user wants, they may change the task's information and update as needed.
-The homework page assists in managing homework and assignments by adding new tasks, modifying existing ones, eliminating unfinished ones, and marking them as finished. The notes page allows the learner to keep notes while they are learning.
-The notes pages: this page provides the student to keep note when studying.
-Wiki search page: This enables the student to seek for a brief overview of a subject without having to travel to the Wikipedia page or read through everything; of course, if the student would like to go deeper, they may click on the summary and be redirected to the relevant page on the real website. The main goal of this website is to provide a service in one location so a student doesn't have to get sidetracked while trying to actually study and doesn't have to keep up with looking up in different platforms.
- The YouTube page: uses the YouTube API, which again aids the student in looking up videos without the hassle of opening new tabs and having to lose focus.
-Dictionary page: A search box is available on this page for students to look up terms. With the use of an API from https://dictionaryapi.dev, the term will be searched and fetched to the user
-The books page: The Books API of Google offers a mechanism to search for and access that content, as well as to make and see personalization based on it. Using the books website when a student searches for books using this API, the website will present the most pertinent books based on the search and display them along with basic details, a thumbnail, and a link to the Google Books sample site.
+•The to-do page: This aids in database data storage and retrieval, and after a job is finished, the user can mark it as completed or delete it. Anytime the user wants, they may change the task's information and update as needed.
+•The homework page assists in managing homework and assignments by adding new tasks, modifying existing ones, eliminating unfinished ones, and marking them as finished. The notes page allows the learner to keep notes while they are learning.
+•The notes pages: this page provides the student to keep note when studying.
+•Wiki search page: This enables the student to seek for a brief overview of a subject without having to travel to the Wikipedia page or read through everything; of course, if the student would like to go deeper, they may click on the summary and be redirected to the relevant page on the real website. The main goal of this website is to provide a service in one location so a student doesn't have to get sidetracked while trying to actually study and doesn't have to keep up with looking up in different platforms.
+•The YouTube page: uses the YouTube API, which again aids the student in looking up videos without the hassle of opening new tabs and having to lose focus.
+•Dictionary page: A search box is available on this page for students to look up terms. With the use of an API from https://dictionaryapi.dev, the term will be searched and fetched to the user
+•The books page: The Books API of Google offers a mechanism to search for and access that content, as well as to make and see personalization based on it. Using the books website when a student searches for books using this API, the website will present the most pertinent books based on the search and display them along with basic details, a thumbnail, and a link to the Google Books sample site.
+
 Additional pages comprised include:
-Homepage: A lovely, straightforward user experience that displays all capabilities and allows users to go to other pages.
-The user's/student's homework and to-do list is listed in tabular form on the profile page.
+•Homepage: A lovely, straightforward user experience that displays all capabilities and allows users to go to other pages.
+•The user's/student's homework and to-do list is listed in tabular form on the profile page.
 
 Django Structure/ Code Structure
+
+![Screenshot 2023-04-19 095148](https://user-images.githubusercontent.com/116893742/233022973-1fbdeb3e-0f02-4220-84c0-9f4e519de09a.jpg)
+
 
 studentStudyPortal Directory
 
