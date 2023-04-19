@@ -1,4 +1,4 @@
-#Study portal:
+Study portal:
 
 Study portal is a simple open-source website platform built on the Django Web Framework, designed to provide services for student to track their assignments, to-dos, save notes and refer to contents from other platforms all in one place when studying.  
 
@@ -13,15 +13,22 @@ Study portal is a simple open-source website platform built on the Django Web Fr
 #Installation
 
 •	clone Repository & Install Packages
+
 o	git clone https://github.com/isaiassiele/Study-Portal.git
+
 •	create a virtual environment inside  and activate virtual environment,
+
 o	For Mac/ Linux
+
 o	python3 -m venv myenv
+
 o	source env/bin/activate
 
 
 o	for windows
+
 o	virtualenv venv
+
 o	.\venv\Scripts\activate
 •	install project dependencies from requirements.txt
 o	pip install –r requirements.txt
