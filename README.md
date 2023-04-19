@@ -1,4 +1,4 @@
-Study portal:
+# Study portal:
 
 Study portal is a simple open-source website platform built on the Django Web Framework, designed to provide services for student to track their assignments, to-dos, save notes and refer to contents from other platforms all in one place when studying.  
 
@@ -89,7 +89,7 @@ Additional pages comprised include:
 ![Screenshot 2023-04-19 095148](https://user-images.githubusercontent.com/116893742/233022973-1fbdeb3e-0f02-4220-84c0-9f4e519de09a.jpg)
 
 
-studentStudyPortal Directory
+# studentStudyPortal Directory
 
 1. studentStudyPortal /init.py 
 
@@ -119,7 +119,7 @@ pythonanywhere.com works for both.
  An entry-point for WSGI-compatible web servers to serve your project, which we didn’t need to add since pythonanywhere.com works for both.
 
 
-DASHBOARD folder consists of 
+# DASHBOARD folder consists of 
 
 1. _init_.py
 
