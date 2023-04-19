@@ -31,13 +31,19 @@ o	virtualenv venv
 
 o	.\venv\Scripts\activate
 •	install project dependencies from requirements.txt
+
 o	pip install –r requirements.txt
+
 •	migrate and start server
+
 o	python manage.py makemigrations
+
 o	python manage.py migrate
+
 o	python manage.py runserver
 
 Demo
+
 •	http://isaiasportal.pythonanywhere.com
 
 # Detailed explanation:
