@@ -42,6 +42,7 @@ Demo
 
 # Detailed explanation:
 The website has six main pages and those are:
+
 •The to-do page: which helps to store data in database and can be retrieved from the to-do page and when the task is done the user can mark it as completed or delete it. The user can update the information of the task at any time.
 
 •The homework page: helps in organizing homework and assignments, by creating new assignments updating deleting and, marking as completed too.
