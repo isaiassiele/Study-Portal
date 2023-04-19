@@ -5,23 +5,33 @@ Study portal is a simple open-source website platform built on the Django Web Fr
 #Contents and Features include
 
 •	User can manage assignments, keep notes and to-dos 
+
 •	API for YouTube, Wikipedia, Google books and dictionary  
+
 •	Custom admin 
+
 •	Responsive, mobile-friendly design 
+
 •	And more…
 
 #Technologies
 
 •	Django framework
+
 •	Python
+
 •	Html
+
 •	CSS
+
 •	Bootstrap 4 and 5
 
 #Getting Started
+
 #Prerequisites
 
 •	python
+
 •	Pip install django
 
 #Installation
@@ -64,19 +74,31 @@ The website has six main pages and those are:
 •Dictionary page: this page has a search box where a student can lookup words. The word will be search by the help of an API from https://dictionaryapi.dev.
 
 Some secondary pages included are:
+
 •Homepage: A beautiful simple user interface design that shows all functionalities where the user can browse to the other pages through.
+
 •Profile page: this page provide all the list of the user’s/ student’s homework and to-do status in tabular form.
+
 The website includes seven primary pages and those are:
+
 •The to-do page: This aids in database data storage and retrieval, and after a job is finished, the user can mark it as completed or delete it. Anytime the user wants, they may change the task's information and update as needed.
+
 •The homework page assists in managing homework and assignments by adding new tasks, modifying existing ones, eliminating unfinished ones, and marking them as finished. The notes page allows the learner to keep notes while they are learning.
+
 •The notes pages: this page provides the student to keep note when studying.
+
 •Wiki search page: This enables the student to seek for a brief overview of a subject without having to travel to the Wikipedia page or read through everything; of course, if the student would like to go deeper, they may click on the summary and be redirected to the relevant page on the real website. The main goal of this website is to provide a service in one location so a student doesn't have to get sidetracked while trying to actually study and doesn't have to keep up with looking up in different platforms.
+
 •The YouTube page: uses the YouTube API, which again aids the student in looking up videos without the hassle of opening new tabs and having to lose focus.
-•Dictionary page: A search box is available on this page for students to look up terms. With the use of an API from https://dictionaryapi.dev, the term will be searched and fetched to the user
+
+•Dictionary page: A search box is available on this page for students to look up terms. With the use of an API from https://dictionaryapi.dev, the term will be searched and fetched to the user.
+
 •The books page: The Books API of Google offers a mechanism to search for and access that content, as well as to make and see personalization based on it. Using the books website when a student searches for books using this API, the website will present the most pertinent books based on the search and display them along with basic details, a thumbnail, and a link to the Google Books sample site.
 
 Additional pages comprised include:
+
 •Homepage: A lovely, straightforward user experience that displays all capabilities and allows users to go to other pages.
+
 •The user's/student's homework and to-do list is listed in tabular form on the profile page.
 
 Django Structure/ Code Structure
